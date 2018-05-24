@@ -22,6 +22,7 @@ public class MapsMain {
 		
 		System.out.println("Hash Map Elements");
 		System.out.println("\t" + map1);
+		System.out.println("Order by key hash");
 		
 		// Demo 7.7 - TreeMaps
 		// Provides efficient means of storing key/value pairs in stored order
@@ -35,6 +36,7 @@ public class MapsMain {
 		
 		System.out.println("Tree Map Elements");
 		System.out.println("\t" + treeMap);
+		System.out.println("Sorted by key");
 		
 		// Demo 7.8 - Linked Hash Map
 		// Extends HashMap but it maintains linked list of entries in the order of 
@@ -49,6 +51,7 @@ public class MapsMain {
 		
 		System.out.println("Linked Hash Map Elements");
 		System.out.println("\t" + map2);
+		System.out.println("Insertion order preserved");
 		
 
 	}
